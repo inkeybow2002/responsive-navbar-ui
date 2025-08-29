@@ -1,8 +1,10 @@
+/* Basic body styling */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
 
+/* Styling for the navigation bar */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -11,11 +13,13 @@ body {
     padding: 1rem;
 }
 
+/* Logo styling */
 .logo {
     color: white;
     font-size: 24px;
 }
 
+/* Navigation links styling */
 .nav-links {
     list-style: none;
     display: flex;
@@ -27,6 +31,7 @@ body {
     text-decoration: none;
 }
 
+/* Dropdown menu styles */
 .nav-links .dropdown-menu {
     display: none;
     position: absolute;
@@ -35,10 +40,12 @@ body {
     border-radius: 4px;
 }
 
+/* Show dropdown menu on hover */
 .dropdown:hover .dropdown-menu {
     display: block;
 }
 
+/* Toggle for mobile view */
 .toggle {
     display: none;
     flex-direction: column;
@@ -52,6 +59,7 @@ body {
     margin: 3px 0;
 }
 
+/* Responsive styles for mobile view */
 @media (max-width: 768px) {
     .nav-links {
         display: none;
